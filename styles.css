@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+/* 共通部分 */
+html{
+  font-size: 100%;
+}
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+h1{
+  text-transform: uppercase;
+}
+.wrapper{
+  max-width: 1100px;
+  margin:0 auto;
+  padding: 0 4%;
+}
+
+/* header */
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+}
+.header img{
+  height: 50px;
+  width: 150px;
+}
+.main-nav{
+  display: flex;
+  text-decoration: none;
+  padding-top: 13px;
+  font-size: 20px;
+}
+.main-nav li{
+  list-style: none;
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+.main-nav a:hover{
+  color: gray;
+}
+
+.main-visual{
+  margin-bottom: 40px;
+  opacity: 0.6;
+}
+
+/* About */
+.sub-title{
+  border-bottom: 1px gray solid;
+  width: fit-content;
+  height: fit-content;
+  margin: 30px auto;
+}
+.sub-title h1{
+  font-size: 2rem;
+  color: rgba(32, 33, 33, 0.8);
+}
+.about-content{
+  display: flex;
+  margin:100px 20px;
+  justify-content: space-between;
+  height: 130px;
+}
+.profile{
+  width: 130px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.about-date{
+  margin-left: 40px;
+  margin-top: 15px;
+}
+.about-date p{
+  height: 70px;
+  font-size: 18px;
+}
+
+/* ARTICLE */
+article{
+  margin-bottom: 150px;
+}
+.container{
+  margin-left: 10px;
+  text-align: center;
+}
+.contents{
+  margin: 100px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.contents h2{
+  margin: 20px 0;
+  font-size: 24px;
+  text-align: center;
+}
+.contents p{
+  font-size: 12px;
+}
+.bicycle{
+  margin: 5px 10px;
+}
+.bicycle img{
+  width: 224px;
+  height: 147px;
+}
+.paragragh{
+  display: block;
+}
+
+/* footer */
+footer{
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* モバイル版 */
+@media(max-width: 600px){
+  .about-content{
+    /* flex-direction: column; */
+    margin-bottom: 190px;
+  }
+  .contents{
+    flex-direction: column;
+  }
+
+  .container{
+    margin-bottom: 40px;
+  }
+
+}
