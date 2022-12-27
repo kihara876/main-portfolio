@@ -121,7 +121,7 @@ footer{
 }
 
 /* モバイル版 */
-@media(max-width: 600px){
+@media(max-width: 500px){
   .about-content{
     /* flex-direction: column; */
     margin-bottom: 190px;
