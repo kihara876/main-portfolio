@@ -157,8 +157,25 @@ footer{
 /* モバイル版 */
 @media(max-width: 910px){
   .about-content{
-    /* flex-direction: column; */
-    margin-bottom: 190px;
+    flex-direction: column;
+    margin-bottom: 400px;
+  }
+  .about-date p{
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+    padding-right: 20px;
+  }
+  .profile{
+    margin: auto;
+    height: 200px;
+    width: 200px;
+  }
+  .about-content h2{
+    text-align: center;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .contents{
     flex-direction: column;
