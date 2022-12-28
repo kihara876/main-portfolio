@@ -87,11 +87,13 @@ article{
   margin-bottom: 150px;
 }
 .container{
-  margin-left: 10px;
+  margin: auto;
   text-align: center;
 }
 .contents{
-  margin: 100px 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 30px;
   display: flex;
   justify-content: space-between;
 }
@@ -102,32 +104,65 @@ article{
 }
 .contents p{
   font-size: 12px;
+  margin-bottom: 40px;
 }
 .bicycle{
   margin: 5px 10px;
 }
 .bicycle img{
   width: 224px;
-  height: 147px;
+  height: 180px;
 }
 .paragragh{
   display: block;
+}
+.PC-button{
+  font-size: 1.0rem;
+  background:#0bd;
+  color: #fff;
+  border-radius: 5px;
+  padding: 13px 32px;
+}
+.PC-button:hover{
+  background: #0090aa;
+}
+.movie-button{
+  font-size: 1.0rem;
+  background:#0bd;
+  color: #fff;
+  border-radius: 5px;
+  padding: 13px 32px;
+}
+.movie-button:hover{
+  background: #0090aa;
+}
+.money-button{
+  font-size: 1.0rem;
+  background:#0bd;
+  color: #fff;
+  border-radius: 5px;
+  padding: 13px 32px;
+}
+.money-button:hover{
+  background: #0090aa;
 }
 
 /* footer */
 footer{
   text-align: center;
   padding: 10px 0;
+  margin-bottom: 20px;
 }
 
 /* モバイル版 */
-@media(max-width: 500px){
+@media(max-width: 910px){
   .about-content{
     /* flex-direction: column; */
     margin-bottom: 190px;
   }
   .contents{
     flex-direction: column;
+    margin-left: 35px;
   }
 
   .container{
